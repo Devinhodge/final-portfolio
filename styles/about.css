@@ -1,0 +1,39 @@
+.sidenav {
+  width: 170px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: rgba(73, 73, 73, 0.507);
+  border-radius: 15%;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+.sidenav a {
+  padding: 6px 8px 6px 8px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 27px;
+  color: rgb(8, 8, 8);
+  display: block;
+}
+.sidenav a:hover {
+  color: #eecc34cc;
+}
+main {
+  height: 100%;
+  width: auto;
+  margin-left: 200px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.portfolio a {
+  text-decoration: none;
+  font-size: 27px;
+  color: rgb(8, 8, 8);
+  font-weight: bold;
+  display: block;
+}
+.portfolio a:hover {
+  color: #e4c020cc;
+}
