@@ -1,47 +1,32 @@
-.sidenav {
-  width: 170px;
-  position: fixed;
-  z-index: 1;
-  top: 20px;
-  left: 10px;
-  background: rgba(73, 73, 73, 0.507);
-  border-radius: 15%;
-  overflow-x: hidden;
-  padding: 8px 0;
+body {
+  background-color: rgb(122, 122, 122);
 }
-
-.sidenav a {
-  padding: 6px 8px 6px 8px;
-  text-decoration: none;
-  text-align: center;
-  font-size: 27px;
-  color: rgb(8, 8, 8);
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #eecc34cc;
-}
-main {
-  height: 100%;
-  width: auto;
-  margin-left: 200px; /* Same width as the sidebar + left position in px */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+.jumbotron {
+  height: 550px;
+  background-image: url(../images/IMG_4288.JPEG);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 h1 {
-  color: #2b2b2b;
-}
-h2 {
-  color: #5c5c5bcc;
-}
-.portfolio a {
-  text-decoration: none;
-  font-size: 27px;
-  color: rgb(8, 8, 8);
+  font-size: 65px;
+  color: #2c3035;
+  text-align: center;
   font-weight: bold;
-  display: block;
 }
-.portfolio a:hover {
-  color: #e4c020cc;
+h3 {
+  font-size: 45px;
+  color: #afb4c0;
+  text-align: center;
+  font-weight: lighter;
+}
+.jumbotron a {
+  font-size: 80px;
+  border-radius: 50px;
+  width: fit-content;
+  margin-left: 15%;
+  background-color: #2c303571;
+  border: none;
 }
