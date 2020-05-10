@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(122, 122, 122);
+}
+.jumbotron {
+  height: 550px;
+  background-image: url(../images/IMG_4288.JPEG);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  font-size: 65px;
+  color: #2c3035;
+  text-align: center;
+  font-weight: bold;
+}
+h3 {
+  font-size: 45px;
+  color: #afb4c0;
+  text-align: center;
+  font-weight: lighter;
+}
+.jumbotron a {
+  font-size: 80px;
+  border-radius: 50px;
+  width: fit-content;
+  margin-left: 15%;
+  background-color: #2c303571;
+  border: none;
+}
