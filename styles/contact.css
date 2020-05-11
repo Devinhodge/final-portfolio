@@ -18,9 +18,11 @@ form {
 button {
   opacity: .5;
 } 
+img {
+  display: flex;
+  flex-wrap: wrap;
+}
 a {
-  text-align: center;
   font-size: 10px;
   color: #2c3035;
-  margin: 10% auto;
 }
