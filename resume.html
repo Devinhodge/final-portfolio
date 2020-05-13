@@ -1,73 +1,106 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/resume.css">
-    <title>Online Resume</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Devin's Resume</title>
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/resume.css">
 </head>
-<body> 
-    <main>
-        <img src="./images/kiss.png" width="100%" alt="fireworks">
-        <h1>Devin Hodge</h1>
-        <img src="./images/kiss.png" width="100%" alt="fireworks">
-        <section class="address">
-            <h2>Contact</h2>
-            <ul>
-                <li>d.hodge8891@yahoo.com</li>
-                <li>6205 Shadow Bend</li>
-                <li> Austin TX, 78745</li>
-                <li>Linkedin.com/in/Devinhodge</li>
-                <li id="myNumber">(512) 968-8683</li>
-                <button onclick="toggleNumber()" id="numberButton">Show Number</button>
-            </ul>
-        </section>
-        <section class="discription">
-            <h3>Profile</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Rem aut delectus, ipsum blanditiis, hic laboriosam cupiditate enim expedita 
-                exercitationem praesentium adipisci repudiandae quae sapiente nostrum eum sint assumenda laudantium in!</p>
-            </section>
-       <section class="college">
-            <h4>Education</h4>
-                <ul>
-                <li>Austin Coding Academy</li>
-                <li>701 Brazos St, </li>
-                <li>Austin, TX 78701</li>
-                <li>2020</li>
-            </ul> 
-        </section>
-        <section class="experience">
-            <h5>Key Skills</h5>
-            <p>Analytical thinking & planning</p>
-            <p>Strong communication</p>
-            <p>Attention to detail</p>
-            <p>Organization and prioritization</p>
-            <p>Problem solving</p>
-            <p>Team leadership</p>
-            <h5>CERTIFICATIONS</h5>
-            <p>Certification/2017</p>
-            <p>Certification/2019</p>
-        </section>
-        <section class="jobs">
-            <h6>Professional Experience</h6>
-            <p>Administrative Assistant</p>
-            <ul>
-                <li>Schedule and coordinate meetings</li>
-                <li>Trained admin assistants</li>
-                <li>Developed new filing and organization prectices</li>
-                <li>Maintain utmost discretion with sensitive topics</li>
-                <li>Manage travel and expense reports</li>
-            </ul>
-            <p>Secretary</p>
-            <ul>
-                <li>Type documents and data entry</li>
-                <li>Opened, sorted, and distributed incoming messages</li>
-                <li>Purchased and maintained office inventories</li>
-                <li>Greeted visitors</li>
-            </ul>
-        </section>
-    </main>
-<script src="./javascript/resume.js">
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://medium.com/@DevinHodge">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </nav> 
+  </div>
+<main>
+  <h1>Resume</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h3>Contact</h3>
+        <ul>
+          <li>6205 Shadoow Bend</li>
+          <li>Austin TX, 78745</li>
+          <li>d.hodge8891@yahoo.com</li>
+          <li>Linkedin.com/Devinhodge</li>
+          <li>(512) 968 - 8683</li>
+        </ul>
+      </div>
+      <div class="col">   
+       <h3>Education</h3>
+        <ul>
+          <li><h5>Austin Comunity College</h5></li>
+          <li>Austin TX</li>
+          <li>2010-2012</li>
+        </ul>
+        <ul>
+          <li><h5>Austin Coding Academy</h5></li>
+            <li>Austin TX</li>
+            <li>2020</li>
+        </ul></div>
+      <div class="w-100">  
+        <div class="text-center">
+          <a class="btn btn-outline-dark" id="btn" href="contact.html" role="button">Hire Me</a>
+        </div>
+      </div>
+      <div class="col">
+        <h3>Skills</h3>
+        <ul>
+          <li>Teamwork</li>
+          <li>Perseverance</li>
+          <li>Resolve Conflict</li>
+          <li>Customer Service</li>
+          <li>Time Management</li>
+          <li>Leadership & Problem Solving</li>
+          <li>Endurance & Perseverance</li>
+          <li>Patience & Self-Control</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Profissional Experience</h3>
+        <h5>Management & Hospitality</h5>
+        <ul>
+          <li>Evangeline Cafe</li>
+          <li>2007-present</li>
+        </ul>
+        <p>Sarted in 2007 in entry level position as a Host. Move quickly while maintaing positive customer service.
+          Overtime I became full time server and eventually became manager for 6+ years. 
+          Trained most levels of new hires for the business. 
+          Filled and filed important paperwork for employees and some inventory orders.
+          Organized meetings with staff and fellow management.
+          </p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+</main>
+<script src="./javascript/resume.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
 </script>
 </body>
 </html>
