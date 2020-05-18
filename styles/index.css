@@ -1,6 +1,13 @@
 body {
   background-color: rgb(190, 190, 190);
 }
+nav{
+  font-size: 20px;
+}
+#active {
+  color: rgba(223, 222, 222, 0.883);
+  font-weight: bold;
+}
 .jumbotron {
   height: 550px;
   background-image: url(../images/IMG_4288.JPEG);
