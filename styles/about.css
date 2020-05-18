@@ -24,7 +24,7 @@ h2 {
 }
 .container .col p {
   font-size: 25px;
-  height: 20;
+  height: 0;
   opacity: 1;
   transition-delay: 2s;
   transition-duration: 3s;
