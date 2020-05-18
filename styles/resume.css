@@ -1,6 +1,13 @@
 body {
   background-color: rgb(190, 190, 190);
 }
+nav{
+  font-size: 20px;
+}
+#active {
+  color: rgba(223, 222, 222, 0.883);
+  font-weight: bold;
+}
 h1 {
   text-align: center;
   padding: 25px;
@@ -31,7 +38,7 @@ p {
   opacity: .5;
 }
 #btn:hover {
-  opacity: 1;
+  opacity: .8;
 }
 @media (max-width: 770px) {
   h1 {
