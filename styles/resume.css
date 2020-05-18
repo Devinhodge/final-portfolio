@@ -3,6 +3,12 @@ body {
 }
 h1 {
   text-align: center;
+  padding: 25px;
+  font-size: 50px;
+}
+img {
+  border-radius: 50%;
+  width: 25%;
 }
 ul {
   list-style-type: none;
@@ -27,25 +33,21 @@ p {
 #btn:hover {
   opacity: 1;
 }
-/*#myNumber {
-  font-weight: bold;
-  font-size: 25px;
-  display: none;
+@media (max-width: 770px) {
+  h1 {
+    font-size: 35px;
+  }
+  img {
+    width: 30%;
+  }
+  #btn {
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+  }
 }
-button {
-  height: 38px;
-  width: 150px;
-  margin-top: 10px;
-  border: none;
-  border-radius: 50px;
-  font-size: 16px;
-  font-weight: bold;
-  background: rgba(241,231,103,1);
-  background: -moz-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(179,107,0,1) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(179,107,0,1)));
-  background: -webkit-linear-gradient(left, rgba(241,231,103,1) 0%, rgb(192, 115, 0) 100%);
-  background: -o-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(179,107,0,1) 100%);
-  background: -ms-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(179,107,0,1) 100%);
-  background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(179,107,0,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#b36b00', GradientType=1 );
-}*/
+@media (max-width: 780px) {
+img {
+  width: 50%;
+  }
+}
