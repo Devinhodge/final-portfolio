@@ -10,7 +10,7 @@ nav{
 }
 img {
   width: 100%;
-  margin: 20px 0 20px -20%;
+  margin: 20px 0 20px -30%;
   border-radius: 20px;
 }
 h1 {
@@ -26,9 +26,9 @@ h2 {
   font-size: 25px;
   height: 0;
   opacity: 1;
-  transition-delay: 2s;
-  transition-duration: 3s;
-  transform: translateY(165px);
+  transition-delay: 0s;
+  transition-duration: 2s;
+  transform: translateY(50px);
 }
 h1 {
   text-align: center;
@@ -56,20 +56,22 @@ h1 {
 }
 @media screen and (max-width: 1220px) {
   .container .col p {
-    font-size: 20px;
+    font-size: 22px;
+    transform: translateY(30px);
   }
   img {
-    margin: 20px 0 20px -5%;
+    margin: 20px 0 20px -15%;
   }
   #p1 {
-    margin-left: -10%;
-    margin-bottom: 10%;
-  }
-  #p2 {
     margin-left: -5%;
     margin-bottom: 10%;
   }
+  #p2 {
+    margin-left: 0%;
+    margin-bottom: 10%;
+  }
   #p3 {
+    margin-left: 5%;
     margin-bottom: 10%;
   }
   #p4 {
@@ -83,7 +85,7 @@ h1 {
 }
 @media screen and (max-width: 1000px) {
   .container .col p {
-    font-size: 16px;
+    font-size: 20px;
   }
   h1 {
     font-size: 50px;
@@ -131,8 +133,11 @@ h1 {
     font-size: 35px;
     margin-left: -30%;
   }
+  .container .col p {
+    font-size: 16px;
+    transform: translateY(30px);
+  }
   #p1 {
-    margin-top: -70%;
     margin-left: -40%;
   }
   #p2 {
